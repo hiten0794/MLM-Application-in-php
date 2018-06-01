@@ -1,0 +1,248 @@
+{
+	"canada": {
+		"marketName":"Canada",
+		"isoCode": "ca",
+		"currency": "$",
+		"bvPvRatio": 3.19,
+		"schedule": [
+				{"pv":7500,"rate":0.25},
+				{"pv":6000,"rate":0.23},
+				{"pv":4000,"rate":0.21},
+				{"pv":2500,"rate":0.18},
+				{"pv":1500,"rate":0.15},
+				{"pv":1000,"rate":0.12},
+				{"pv":600,"rate":0.09},
+				{"pv":300,"rate":0.06},
+				{"pv":100,"rate":0.03}
+		]
+	},
+	"united-states-usa": {
+		"marketName":"USA",
+		"isoCode": "us",
+		"currency": "$",
+		"bvPvRatio": 2.84,
+		"similarTo":"canada"
+	},
+	"united-kingdom-uk": {
+		"marketName":"United Kingdom",
+		"isoCode": "gb",
+		"currency": "£",
+		"bvPvRatio": 1.34,
+		"schedule": [
+				{"pv":10000,"rate":0.21},
+				{"pv":7000,"rate":0.18},
+				{"pv":4000,"rate":0.15},
+				{"pv":2400,"rate":0.12},
+				{"pv":1200,"rate":0.09},
+				{"pv":600,"rate":0.06},
+				{"pv":200,"rate":0.03}
+			]
+	},
+	"ireland": {
+		"marketName":"Ireland",
+		"isoCode": "ie",
+		"currency": "€",
+		"bvPvRatio": 1.77,
+		"similarTo":"united-kingdom-uk"
+	},
+	"australia": {
+		"marketName":"Australia",
+		"isoCode": "au",
+		"currency": "$",
+		"bvPvRatio": 3.9,
+		"schedule": [
+				{"pv":7500,"rate":0.21},
+				{"pv":5000,"rate":0.18},
+				{"pv":3250,"rate":0.15},
+				{"pv":2000,"rate":0.12},
+				{"pv":1000,"rate":0.09},
+				{"pv":400,"rate":0.06},
+				{"pv":100,"rate":0.03}
+			]
+	},
+	"new-zealand": {
+		"marketName":"New Zealand",
+		"isoCode": "nz",
+		"currency": "$",
+		"bvPvRatio": 3.97,
+		"similarTo":"australia"
+	},
+	"india": {
+		"marketName":"India",
+		"isoCode": "in",
+		"currency": "₹",
+		"bvPvRatio": 80,
+		"schedule": [
+				{"pv":10000,"rate":0.21},
+				{"pv":7000,"rate":0.18},
+				{"pv":4000,"rate":0.15},
+				{"pv":2400,"rate":0.13},
+				{"pv":1200,"rate":0.11},
+				{"pv":500,"rate":0.09},
+				{"pv":100,"rate":0.06}
+			]
+	},
+	"malaysia": {
+		"marketName":"Malaysia",
+		"isoCode": "my",
+		"currency": "RM",
+		"bvPvRatio": 3.6,
+		"schedule": [
+				{"pv":12500,"rate":0.21},
+				{"pv":7500,"rate":0.18},
+				{"pv":4500,"rate":0.15},
+				{"pv":3000,"rate":0.12},
+				{"pv":1750,"rate":0.09},
+				{"pv":900,"rate":0.06},
+				{"pv":250,"rate":0.03}
+			]
+	},
+	"singapore": {
+		"marketName":"Singapore",
+		"isoCode": "sg",
+		"currency": "$",
+		"bvPvRatio": 1.43,
+		"similarTo":"malaysia"
+	},
+	"brunei": {
+		"marketName":"Brunei",
+		"isoCode": "bn",
+		"currency": "$",
+		"bvPvRatio": 2.2,
+		"similarTo":"malaysia"
+	},
+	"indonesia": {
+		"marketName":"Indonesia",
+		"isoCode": "id",
+		"currency": "Rp",
+		"bvPvRatio": 0.11,
+		"schedule": [
+				{"pv":16000000,"rate":0.21},
+				{"pv":11000000,"rate":0.18},
+				{"pv":6500000,"rate":0.15},
+				{"pv":4000000,"rate":0.12},
+				{"pv":2000000,"rate":0.09},
+				{"pv":1000000,"rate":0.06},
+				{"pv":350000,"rate":0.03}
+			]
+	},
+	"brazil": {
+		"marketName":"Brazil",
+		"isoCode": "br",
+		"currency": "R$",
+		"bvPvRatio": 2.35,
+		"schedule": [
+				{"pv":10000,"rate":0.21},
+				{"pv":7000,"rate":0.18},
+				{"pv":4000,"rate":0.15},
+				{"pv":2400,"rate":0.12},
+				{"pv":1000,"rate":0.09}
+			]
+	},
+	"argentina": {
+		"marketName":"Argentina",
+		"isoCode": "ar",
+		"currency": "$",
+		"bvPvRatio": 17.86,
+		"similarTo":"brazil"
+	},
+	"chile": {
+		"marketName":"Chile",
+		"isoCode": "cl",
+		"currency": "$",
+		"bvPvRatio": 759,
+		"similarTo":"brazil"
+	},
+	"colombia": {
+		"marketName":"Colombia",
+		"isoCode": "co",
+		"currency": "$",
+		"bvPvRatio": 2456.48,
+		"similarTo":"brazil"
+	},
+	"honduras": {
+		"marketName":"Honduras",
+		"isoCode": "hn",
+		"currency": "L",
+		"bvPvRatio": 29.92,
+		"schedule": [
+				{"pv":10000,"rate":0.21},
+				{"pv":7000,"rate":0.18},
+				{"pv":4000,"rate":0.15},
+				{"pv":1800,"rate":0.12},
+				{"pv":600,"rate":0.09}
+			]
+	},
+	"thailand": {
+		"marketName":"Thailand",
+		"isoCode": "th",
+		"currency": "฿",
+		"bvPvRatio": 2.87,
+		"schedule": [
+				{"pv":150000,"rate":0.21},
+				{"pv":90000,"rate":0.18},
+				{"pv":55000,"rate":0.15},
+				{"pv":30000,"rate":0.12},
+				{"pv":15000,"rate":0.09},
+				{"pv":5000,"rate":0.06}
+			]
+	},
+	"russia": {
+		"marketName":"Russia",
+		"isoCode": "ru",
+		"currency": "руб",
+		"bvPvRatio": 80,
+		"schedule": [
+				{"pv":10000,"rate":0.21},
+				{"pv":7000,"rate":0.18},
+				{"pv":4000,"rate":0.15},
+				{"pv":2400,"rate":0.12},
+				{"pv":1200,"rate":0.09},
+				{"pv":600,"rate":0.06},
+				{"pv":200,"rate":0.03}
+			]
+	},
+	"germany": {
+		"marketName":"Germany",
+		"isoCode": "de",
+		"currency": "€",
+		"bvPvRatio": 1.912,
+		"similarTo":"russia"
+	},
+	"lithuania": {
+		"marketName":"Lithuania",
+		"isoCode": "lt",
+		"currency": "€",
+		"bvPvRatio": 1.496,
+		"similarTo":"russia"
+	},
+	"norway": {
+		"marketName":"Norway",
+		"isoCode": "no",
+		"currency": "kr",
+		"bvPvRatio": 15.497,
+		"similarTo":"russia"
+	},
+	"ukraine": {
+		"marketName":"Ukraine",
+		"isoCode": "ua",
+		"currency": "₴",
+		"bvPvRatio": 25,
+		"similarTo":"russia"
+	},
+	"switzerland": {
+		"marketName":"Switzerland",
+		"isoCode": "ch",
+		"currency": "CHF",
+		"bvPvRatio": 2.45,
+		"similarTo":"russia"
+	},
+	"france": {
+		"marketName":"France",
+		"isoCode": "fr",
+		"currency": "€",
+		"bvPvRatio": 1.911,
+		"similarTo":"russia"
+	}
+
+}

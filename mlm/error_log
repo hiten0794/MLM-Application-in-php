@@ -1,0 +1,16 @@
+[27-Dec-2017 09:09:14 UTC] PHP Parse error:  syntax error, unexpected ''first_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/ovejobs/public_html/application/controllers/Connect_Facebook_Controller.php on line 27
+[02-Feb-2018 10:50:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home/sakhave/public_html/dev.sakhave.com/MLM/application/controllers/OrderController.php on line 147
+[03-Feb-2018 06:21:47 UTC] PHP Warning:  Unterminated comment starting line 239 in /home/sakhave/public_html/dev.sakhave.com/MLM/application/config/config.php on line 239
+[03-Feb-2018 06:49:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/sakhave/public_html/dev.sakhave.com/MLM/application/controllers/InvoiceController.php on line 95
+[05-Feb-2018 09:46:03 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/sakhave/public_html/dev.sakhave.com/MLM/admin/application/controllers/WebsiteController.php on line 94
+[20-Apr-2018 17:51:35 UTC] PHP Warning:  Unterminated comment starting line 281 in /home/vmbcreation/public_html/admin/application/config/config.php on line 281
+[20-Apr-2018 17:51:35 UTC] PHP Notice:  Undefined index: log_path in /home/vmbcreation/public_html/admin/system/core/Log.php on line 127
+[20-Apr-2018 17:51:35 UTC] PHP Notice:  Undefined index: log_path in /home/vmbcreation/public_html/admin/system/core/Log.php on line 127
+[20-Apr-2018 17:51:35 UTC] PHP Warning:  mkdir(): Invalid path in /home/vmbcreation/public_html/admin/system/core/Log.php on line 131
+[20-Apr-2018 17:51:35 UTC] PHP Notice:  Undefined index: log_threshold in /home/vmbcreation/public_html/admin/system/core/Log.php on line 138
+[20-Apr-2018 17:51:35 UTC] PHP Notice:  Undefined index: log_threshold in /home/vmbcreation/public_html/admin/system/core/Log.php on line 142
+[20-Apr-2018 17:51:35 UTC] PHP Warning:  Unterminated comment starting line 873 in /home/vmbcreation/public_html/admin/application/config/config.php on line 873
+[21-Apr-2018 13:32:23 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/vmbcreation/public_html/admin/application/controllers/InvoiceController.php on line 354
+[21-Apr-2018 14:19:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vmbcreation/public_html/admin/application/controllers/ExcelController.php on line 84
+[23-Apr-2018 13:26:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vmbcreation/public_html/admin/application/models/MemberModel.php on line 185
+[23-Apr-2018 13:34:37 UTC] PHP Parse error:  syntax error, unexpected ''#!/country/india" class="gree' (T_ENCAPSED_AND_WHITESPACE) in /home/vmbcreation/public_html/admin/application/controllers/CustomerController.php on line 138

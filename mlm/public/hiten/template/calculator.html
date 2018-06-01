@@ -1,0 +1,25 @@
+<div id="calNschedule" ng-show="scheduleInfo">
+ 
+<hr>
+<!--Assume that the PV/BV ratio is 1 : <input class="input input-mini" type="number" step="0.01" ng-model="scheduleInfo.bvPvRatio" ng-change="calculate()" ng-blur="gaTreeChanged('Edit pvBvRatio')"/>-->
+<div id="ibo-tree-container">
+<recurv tree="tree" schedule-info="scheduleInfo" calculate="calculate()" ga-tree-changed="gaTreeChanged(action)"></recurv>
+</div>
+
+<table class="table table-condensed" style="margin-left: 10px;">
+<tr>
+<th>PV (Point Value)</th>
+<th>BV (Business Volumn)</th>
+<th>Performance Bonus Level</th>
+</tr>
+<tr ng-repeat="sch in scheduleInfo.schedule">
+<td>{{sch.pv}}</td>
+<td>{{scheduleInfo.currency}} {{(sch.pv*scheduleInfo.bvPvRatio).toFixed(0)}}</td>
+<td>{{sch.rate*100}}%</td>
+</tr>
+</table>
+  
+<hr>
+</div>
+ 
+ 
